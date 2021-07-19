@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/743c4bf4e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Question Page:3</title>
+  </head>
+  <body>
+    <section>
+      <div class="container mtt">
+        <div class="question px-5">
+          <p>
+            Хүнтэй холбоотой ямар нэгэн үйлчилгээ болон үйлдэл хүсч байна уу?
+          </p>
+        </div>
+        <div class="radio my-5 mx-5">
+          <input
+            type="radio"
+            id="yes"
+            class="radio__input"
+            name="huulItgeedIrgen"
+            value="Хуулийн этгээд"
+          />
+          <label for="yes" class="radio__label px">Тийм</label>
+
+          <input
+            type="radio"
+            id="other"
+            class="radio__input"
+            name="huulItgeedIrgen"
+            value="Энгийн иргэн"
+          />
+          <label for="other" class="radio__label px">Бусад</label>
+        </div>
+      </div>
+      <div class="container">
+        <div class="question px-5">
+          <p>
+            Бусад сонголт хийсэн бол хүнтэй холбоотой ямар үйлчилгээ үйлдэл
+            хүсэж буйгаа бичнэ үү. Хариулт
+          </p>
+        </div>
+        <div class="my-5 mx-5">
+          <textarea
+            type="radio"
+            id="yes"
+            class="textarea"
+            name="busad"
+            placeholder="Энд бичнэ үү..."
+          ></textarea>
+        </div>
+        <p class="my-5 mx-5">
+          <strong> Тийм</strong> сонголт хийсэн үед үйлчилгээ болон үйлдэлтэй
+          хамаатай асуултийн хуудас руу очино.
+        </p>
+      </div>
+    </section>
+    <div class="container pos">
+      <div class="button next">
+        <a href="#"> Next <i class="fas fa-arrow-right pl-3"></i></a>
+      </div>
+    </div>
+    <footer class="has-text-centered mt-bott">
+      <p>Copyright &copy; 2021 OnlineSign All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/743c4bf4e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Question Page:1</title>
+  </head>
+  <body>
+    <section>
+      <div class="container flexdex mt">
+        <div class="question px-5">
+          <p>Хуулийн этгээд / энгийн иргэн аль нь болохоо сонгоно уу</p>
+        </div>
+        <div class="radio">
+          <input
+            type="radio"
+            id="huIt"
+            class="radio__input"
+            name="huulItgeedIrgen"
+            value="Хуулийн этгээд"
+          />
+          <label for="huIt" class="radio__label">Хуулийн итгээд</label>
+          <input
+            type="radio"
+            id="irgen"
+            class="radio__input"
+            name="huulItgeedIrgen"
+            value="Энгийн иргэн"
+          />
+          <label for="irgen" class="radio__label">Энгийн иргэн</label>
+        </div>
+      </div>
+      <div class="container flexdex">
+        <div class="question px-5">
+          <p>Энгийн иргэн мөн үү</p>
+        </div>
+        <div class="radio">
+          <input
+            type="radio"
+            id="yes"
+            class="radio__input"
+            name="irgen"
+            value="Хуулийн этгээд"
+          />
+          <label for="yes" class="radio__label wid">тийм</label>
+          <input
+            type="radio"
+            id="no"
+            class="radio__input"
+            name="irgen"
+            value="Энгийн иргэн"
+          />
+          <label for="no" class="radio__label wid">үгүй</label>
+        </div>
+      </div>
+    </section>
+    <div class="container pos">
+      <div class="button next">
+        <a href="question2.html"
+          >Next <i class="fas fa-arrow-right pl-3"></i
+        ></a>
+      </div>
+    </div>
+    <footer class="has-text-centered mt-bot">
+      <p>Copyright &copy; 2021 OnlineSign All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

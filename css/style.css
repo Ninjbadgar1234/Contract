@@ -96,3 +96,15 @@
 .small {
   font-size: 14px;
 }
+.hhe {
+  width: 550px;
+  margin: auto;
+  text-align: center;
+}
+.fields {
+  margin: 10px 5px;
+}
+.inpu {
+  width: 80%;
+  height: 35px;
+}
